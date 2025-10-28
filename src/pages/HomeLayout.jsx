@@ -6,7 +6,6 @@ import {useState} from "react";
 const HomeLayout = () => {
     const navigation = useNavigation()
     const isPageLoading = navigation.state === 'loading';
-    console.log(navigation)
     const value = 'some value'
     return (
         <>
